@@ -8,3 +8,9 @@ INSERT INTO SINGER (name) VALUES
     ('snoop'),
     ('DRE'),
     ('Eminem');
+
+
+INSERT INTO SONG (name) VALUES
+     ('Loose your self'),
+     ('PIMP'),
+     ('supperman');
