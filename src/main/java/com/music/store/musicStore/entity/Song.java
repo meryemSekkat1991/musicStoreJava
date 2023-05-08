@@ -13,27 +13,27 @@ public class Song {
     private String name;
     private String kind;
 
-    public Long getId() {
+    public Long getSongId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setSongId(Long id) {
         this.id = id;
     }
 
-    public String getName() {
+    public String getSongName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setSongName(String name) {
         this.name = name;
     }
 
-    public String getKind() {
+    public String getSongKind() {
         return kind;
     }
 
-    public void setKind(String kind) {
+    public void setSongKind(String kind) {
         this.kind = kind;
     }
 
