@@ -51,8 +51,8 @@ function processJsonSongs(songs){
     for (var i = 0; i < songs.length; i++) {
 
         tr = table.insertRow(-1);
-        tr.insertCell(-1).innerHTML=songs[i].id;
-        tr.insertCell(-1).innerHTML=songs[i].name;
+        tr.insertCell(-1).innerHTML=songs[i].songId;
+        tr.insertCell(-1).innerHTML=songs[i].songName;
     }
 
 }
